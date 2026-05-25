@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "tests/scorecard.test.js",
   "scripts": {
+    "build": "node build-copy.js",
     "test": "node tests/scorecard.test.js"
   },
   "keywords": [],
