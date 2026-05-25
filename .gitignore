@@ -1,0 +1,26 @@
+# Node modules
+node_modules/
+
+# Playwright cache and local logs
+.playwright-mcp/
+
+# Editor settings
+.vscode/
+.claude/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Archive output
+*.zip
+
+# Screenshots and generated assets should be tracked if part of project output, but ignore temp play recordings
+playwright-report/
+
+# Ignore local environment files
+.env

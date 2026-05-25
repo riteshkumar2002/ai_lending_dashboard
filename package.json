@@ -1,0 +1,15 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "main": "tests/scorecard.test.js",
+  "scripts": {
+    "test": "node tests/scorecard.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "playwright": "^1.59.1"
+  }
+}
