@@ -1,0 +1,19 @@
+[build]
+  publish = "public"
+  # No build command — this is a static site that loads JSX via in-browser Babel
+  command = ""
+
+# Optional: serve the main HTML as the root route
+[[redirects]]
+  from = "/*"
+  to = "/Underwriting Workbench.html"
+  status = 200
+  force = false
+
+[headers]
+  [[headers.values]]
+  for = "/*"
+  [headers.values.headers]
+  X-Frame-Options = "DENY"
+  X-Content-Type-Options = "nosniff"
+  Referrer-Policy = "no-referrer-when-downgrade"
